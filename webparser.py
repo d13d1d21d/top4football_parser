@@ -38,7 +38,7 @@ class Product:
 
 
 PER_PAGE = 36
-PREFIX = "T4F-"
+PREFIX = "T4F"
 
 class Parser:
     BASE = "https://top4football.de"
