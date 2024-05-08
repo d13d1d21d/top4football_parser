@@ -34,7 +34,6 @@ products = []
 logger.log_new_run()
 
 print(f"[{Fore.CYAN + Style.BRIGHT}⧖{Style.RESET_ALL}] Получение URLs...")
-logger.log(LogType.INFO, f"\"Получено {len(urls)} URLs\"")
 
 for parser in parsers:
     n_pages = parser.get_n_pages()
